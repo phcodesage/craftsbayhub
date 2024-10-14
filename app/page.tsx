@@ -81,27 +81,86 @@ export default async function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-6">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center border-t border-gray-700 pt-6">
-            <p>&copy; 2024 CraftsBayHub. All rights reserved.</p>
-            <div className="flex space-x-4 text-sm">
-              <Link href="/contact" className="hover:text-gray-300">
-                Contact us
-              </Link>
-              <Link href="/terms" className="hover:text-gray-300">
-                Terms and rules
-              </Link>
-              <Link href="/privacy" className="hover:text-gray-300">
-                Privacy policy
-              </Link>
-              <Link href="/help" className="hover:text-gray-300">
-                Help
-              </Link>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <footer className="bg-gray-800 text-white py-8">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+      {/* Site Description */}
+      <div>
+        <h3 className="text-lg font-semibold mb-4">CRAFTSBAYHUB.COM</h3>
+        <p className="text-sm">
+          We help each other to sell crafts online. Get started and register with us, learn how we make a full-time income working from home like a boss.
+        </p>
+      </div>
+
+      {/* Custom Links 1 */}
+      <div>
+        <h3 className="text-lg font-semibold mb-4">CUSTOM LINKS 1</h3>
+        <ul className="text-sm space-y-2">
+          <li>
+            <a href="#" className="hover:text-gray-300">HANDMADE FORUM</a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-gray-300">ETSY FORUM</a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-gray-300">CRAFT BUSINESS FORUM</a>
+          </li>
+        </ul>
+      </div>
+
+      {/* Custom Links 2 */}
+      <div>
+        <h3 className="text-lg font-semibold mb-4">CUSTOM LINKS 2</h3>
+        <ul className="text-sm space-y-2">
+          <li>
+            <a href="#" className="hover:text-gray-300">CRAFT SUPPLIES FORUM</a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-gray-300">DIY FORUM</a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-gray-300">CRAFT FAIR FORUM</a>
+          </li>
+        </ul>
+      </div>
+
+      {/* Custom Links 3 */}
+      <div>
+        <h3 className="text-lg font-semibold mb-4">CUSTOM LINKS 3</h3>
+        <ul className="text-sm space-y-2">
+          <li>
+            <a href="#" className="hover:text-gray-300">Craft Tutorials Forum</a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-gray-300">Craft Photography Forum</a>
+          </li>
+          <li>
+            <a href="#" className="hover:text-gray-300">Craft Marketing Forum</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    {/* Footer Bottom Section */}
+    <div className="mt-8 border-t border-gray-700 pt-6 flex flex-wrap justify-between items-center">
+      <div className="flex space-x-4 text-sm">
+        <a href="#" className="hover:text-gray-300">Contact us</a>
+        <a href="#" className="hover:text-gray-300">Terms and rules</a>
+        <a href="#" className="hover:text-gray-300">Privacy policy</a>
+        <a href="#" className="hover:text-gray-300">Help</a>
+      </div>
+      <div className="flex space-x-2 text-sm">
+        <span>&copy; 2024 CraftsBayHub. All rights reserved.</span>
+      </div>
+    </div>
+
+    {/* Disclaimer Section */}
+    <div className="bg-gray-900 text-gray-400 text-xs p-4 mt-6 rounded-lg">
+      CraftsBayHub.com – Helping crafters make a living online. All posts are personal opinions and do not constitute professional advice. Use forums responsibly, and always seek advice from experts where necessary.
+    </div>
+  </div>
+</footer>
+
     </div>
   )
 }
